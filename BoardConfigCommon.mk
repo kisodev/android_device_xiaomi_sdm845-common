@@ -50,6 +50,9 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
 
+# A/B
+AB_OTA_UPDATER := false
+
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
 
