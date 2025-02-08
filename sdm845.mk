@@ -124,8 +124,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
-    ueventd.qcom.rc \
-    usb_compositions.conf
+    ueventd.qcom.rc
 
 # Configstore
 PRODUCT_PACKAGES += \
@@ -359,8 +358,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service.dual_role_usb \
-    android.hardware.usb.gadget@1.2-service-qti
+    android.hardware.usb@1.3-service.dual_role_usb
 
 # Vibrator
 PRODUCT_PACKAGES += \
