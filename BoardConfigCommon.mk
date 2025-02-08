@@ -56,9 +56,6 @@ AB_OTA_UPDATER := false
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
 
-# Camera
-TARGET_USES_YCRCB_CAMERA_ENCODE := true
-
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
