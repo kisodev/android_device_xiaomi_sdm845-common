@@ -517,6 +517,7 @@ vendor/lib/libqmi_client_qmux.so|1a3a8b72fe88994d2a28e474e7f8e9e7410ce295
 vendor/lib/libqmi_common_so.so|0e04d09cc7f5f005c9f4225d461d19ffba7b9fbc
 vendor/lib/libqmi_csi.so|b41d3c0af5aa99756998b914143f0b0ff7684b39
 vendor/lib/libqmi_encdec.so|237f3cf42bad77e84198a717c29584422c6e5dd8
+vendor/lib/libqminvapi.so
 vendor/lib/libqmiservices.so|fd3d5890e415351a50ae36cbcfb317b6b6fa81ad
 vendor/lib64/libdiag.so|46c781d1a9363eb8f71ca6e46a74cefcd3943220
 vendor/lib64/libdsi_netctrl.so|7f79df4eb7b68119b508a08e9d725abbee7d0fcb
@@ -533,6 +534,7 @@ vendor/lib64/libqmi_client_qmux.so|53b2f8d8e4544004e25a09f5e9cd79a153d15a1c
 vendor/lib64/libqmi_common_so.so|c67f8e1ae1bf284465123dae0f16d9b47959283a
 vendor/lib64/libqmi_csi.so|83622d5db2a69ae1d8b7f2d32d33465c1c3990a1
 vendor/lib64/libqmi_encdec.so|3718f44de300643adb487449627ccbbd9bb916fe
+vendor/lib64/libqminvapi.so
 vendor/lib64/libqmiservices.so|be2b28a8d5a1880e944d795aa30fc2ca9be92390
 
 # RIL - from munch - RKQ1.211001.001
