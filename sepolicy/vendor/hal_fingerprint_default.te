@@ -14,7 +14,7 @@ allow hal_fingerprint_default sysfs_graphics:dir search;
 allow hal_fingerprint_default sysfs_graphics:file rw_file_perms;
 
 set_prop(hal_fingerprint_default, vendor_fp_prop)
-hal_client_domain(hal_fingerprint_default, hal_perf)
+hal_client_domain(hal_fingerprint_default, vendor_hal_perf)
 
 # Ignore all logging requests
 dontaudit hal_fingerprint storage_file:dir search;

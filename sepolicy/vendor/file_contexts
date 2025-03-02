@@ -15,7 +15,7 @@
 /data/vendor/goodix(/.*)?                     u:object_r:fingerprint_data_file:s0
 /data/vendor/gps(/.*)?                        u:object_r:gps_data_file:s0
 /data/vendor/syna(/.*)?                       u:object_r:fingerprint_data_file:s0
-/data/vendor/mac_addr(/.*)?                   u:object_r:wifi_vendor_data_file:s0
+/data/vendor/mac_addr(/.*)?                   u:object_r:vendor_wifi_vendor_data_file:s0
 /data/vendor/thermal(/.*)?                    u:object_r:thermal_data_file:s0
 
 # Executables
@@ -23,7 +23,7 @@
 /vendor/bin/ignss_2_0                         u:object_r:hal_gnss_default_exec:s0
 /vendor/bin/lhd                               u:object_r:lhd_exec:s0
 /vendor/bin/mlipayd@1\.1                      u:object_r:hal_mlipay_default_exec:s0
-/vendor/bin/nv_mac                            u:object_r:wcnss_service_exec:s0
+/vendor/bin/nv_mac                            u:object_r:vendor_wcnss_service_exec:s0
 
 # Fingerprint devices
 /dev/goodix_fp                                u:object_r:fingerprint_device:s0
