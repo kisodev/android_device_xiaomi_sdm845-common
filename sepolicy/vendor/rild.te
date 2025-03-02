@@ -3,5 +3,5 @@ dontaudit rild vendor_file:file ioctl;
 
 set_prop(rild, deviceid_prop)
 
-# Allow binder communication with qtidataservices_app
-binder_call(rild, qtidataservices_app)
+# Allow binder communication with vendor_qtidataservices_app
+binder_call(rild, vendor_qtidataservices_app)
