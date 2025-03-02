@@ -583,6 +583,7 @@ vendor/lib64/libnetmgr_common.so|9f932d2c74cbf3e8f36d992a0956ef1310b1c224
 vendor/lib64/libnetmgr_nr_fusion.so|ca0f6898adb02c6257f845b73dbc99e79b75611c
 vendor/lib64/libnetmgr_rmnet_ext.so|34dd1b849e1fa5cbd22e13404a916356ef8d9519
 vendor/lib64/libnlnetmgr.so|9961de046b17f74c25d0fbf1b1dc2f9d644aec0e
+vendor/lib64/libops.so
 vendor/lib64/libpdmapper.so|3e4c4b7089a54be7e90801ee5ddf39264fb3b6a9
 vendor/lib64/libpdnotifier.so|087ad31c39307c73a80f3c9e4986e99d5f9ac0ed
 vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
