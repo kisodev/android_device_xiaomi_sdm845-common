@@ -265,6 +265,10 @@ on boot
 
     chmod 0666 /dev/input/event2
 
+    # Power supply
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chown system system /sys/class/power_supply/battery/charging_enabled
+
 # MSM specific files that need to be created on /data
 on post-fs-data
     mkdir /data/vendor/diag 2771 root log
