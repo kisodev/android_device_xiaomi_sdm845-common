@@ -1,3 +1,7 @@
+# Audio
+ro.audio.soundtrigger       u:object_r:audio_config_prop:s0
+ro.audio.soundtrigger.lowpower       u:object_r:audio_config_prop:s0
+
 # Camera
 camera.                     u:object_r:vendor_camera_prop:s0
 persist.camera.             u:object_r:vendor_camera_prop:s0
