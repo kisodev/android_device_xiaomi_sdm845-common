@@ -455,29 +455,8 @@ vendor/lib64/unnhal-acc-hvx.so
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
 
 # OMX - from munch - RKQ1.211001.001
-vendor/lib/libOmxAacDec.so|8ce59e66ecdaef344782adfcefed275478414726
-vendor/lib/libOmxAlacDec.so|85beb430bfdb9579de6c9526616399e457db0d59
-vendor/lib/libOmxAmrDec.so|f91f28006bf40f08f49e4cf877852b28429390b1
-vendor/lib/libOmxAmrwbplusDec.so|148883e95ef3e909809412f91697aa7fe71ed8fd
-vendor/lib/libOmxApeDec.so|cef92e3821396c34c1fb592e7f55a78daa29459e
-vendor/lib/libOmxDsdDec.so|f74936badeb8303b2bb17475b9cd157b1c81131c
-vendor/lib/libOmxEvrcDec.so|827e34f3068a733c39772d46f3757e42e21975c9
-vendor/lib/libOmxG711Dec.so|7f6236caaa675dd9907e404db60b741d9f0fbc52
-vendor/lib/libOmxQcelp13Dec.so|44698fe731f52e64f4646c6262c9b4adba3d807b
 vendor/lib/libOmxVideoDSMode.so|0771a2c2f34dc484f9b0b3625dd0a40361dec060
 vendor/lib/libOmxVpp.so|4225151f1dd333888305bdfa787db4e0a06aa48c
-vendor/lib/libOmxWmaDec.so|0e3f7aefc88bacbe52b2a88d3a704bb023490874
-vendor/lib/libdsd2pcm.so|c5ab1afd7a5a23bf83d80b5ac74247c3dd2085af
-vendor/lib64/libOmxAacDec.so|5b756d7815ce658ba5a2b3ac2d72bba90c75520e
-vendor/lib64/libOmxAlacDec.so|5a1921c5735c6a41419354df5954ad65dba029a1
-vendor/lib64/libOmxAmrDec.so|960bf5522f8ece40640aa0de80b81c4cb19ce5e4
-vendor/lib64/libOmxAmrwbplusDec.so|128b3e2f6dc10ba751edd117d7e1d8ab7a4ac5fc
-vendor/lib64/libOmxApeDec.so|726d9dc19b94c83be6c769e6ea814ebc81021993
-vendor/lib64/libOmxEvrcDec.so|a793c523f124535ae7591fe76ca6f2eba3f38d8f
-vendor/lib64/libOmxG711Dec.so|a2f9cb6f9eab5179f1afe8e24018497d19b8ddd7
-vendor/lib64/libOmxQcelp13Dec.so|d3d11987b8dc3c6605ed79b7f34537a325dfbf79
-vendor/lib64/libOmxVpp.so|c15c36c694ccd26fa48edf9597a4da144fcea18c
-vendor/lib64/libOmxWmaDec.so|181f85d2f440c49a44573229cbc3c462cc52eccd
 
 # Peripheral manager - from PNX - RKQ1.200906.002
 vendor/bin/pm-proxy|832cbe7995de8177a2ef5bdf3f145131dfe828d4
