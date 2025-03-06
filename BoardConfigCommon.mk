@@ -55,9 +55,6 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
 # Graphics
-TARGET_USES_GRALLOC4 := true
-TARGET_USES_HWC2 := true
-TARGET_USES_ION := true
 TARGET_USES_QTI_MAPPER_2_0 := true
 TARGET_USES_QTI_MAPPER_EXTENSIONS_1_1 := true
 
@@ -76,6 +73,9 @@ DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 
 # LMKD
 TARGET_LMKD_STATS_LOG := true
+
+# Media
+TARGET_USES_ION := true
 
 # Partitions
 AB_OTA_UPDATER := false
