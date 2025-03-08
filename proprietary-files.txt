@@ -80,7 +80,10 @@ vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libdirac.so
 vendor/lib/soundfx/libshoebox.so
 
-# Bluetooth (A2DP) - from instantnoodlep
+# Bluetooth (A2DP) - from Sony SM8250-common
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
@@ -89,8 +92,12 @@ vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
 vendor/lib/btaudio_offload_if.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbluetooth_audio_session_qti_2_1.so
+vendor/lib/libbt-hidlclient.so
+vendor/lib/libbtnv.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
+vendor/lib/libsoc_helper.so
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
@@ -99,6 +106,9 @@ vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
 vendor/lib64/btaudio_offload_if.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
+vendor/lib64/libbt-hidlclient.so
+vendor/lib64/libbtnv.so
+vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
@@ -335,12 +345,6 @@ vendor/firmware/a630_zap.mdt
 vendor/lib/hw/vulkan.adreno.so|ae95be239a5fc7ac66d2873a5bca1660667b1ece
 vendor/lib64/hw/vulkan.adreno.so|346bc3158cb9ff6c21f9e17389b4d3a5cb6e4d69
 
-# Hotword enrollment
-product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk|1cbc6ae6490cfc6e16619773809b9afcc9998f91
-product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk|24b4885a1f9194c65f378a2afd8e08b4b11842d8
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
-system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
-
 # IMS - from munch - RKQ1.211001.001
 system_ext/lib64/lib-imsvideocodec.so|eb5aafba83c22d937922631cfdf95a2f1a8feae5
 system_ext/lib64/lib-imsvt.so|2dd3277d4a8e4b4c0afb5dd129f650b56e595179
@@ -484,37 +488,37 @@ vendor/etc/sec_config|38ed44170badad7ae9a05f53223e1addf8780083
 vendor/lib/libdiag.so|e3850f07f045640b3b1ce3ca90bcf72c159d3f94
 vendor/lib/libdsi_netctrl.so|65e572fced697c182f12ad7a37d9a802e45b34bf
 vendor/lib/libdsutils.so|69453895162c157e9e8d282c565210d31411741f
-vendor/lib/libidl.so|74f4fc585d1a1bdffc9c3b8573231e8b89307dbd
+vendor/lib/libidl.so
 vendor/lib/libqcci_legacy.so|732c55ff89bb20ec01d3d13b67bcd9f04ad9526e
 vendor/lib/libqcmaputils.so|25128a262238e86adee9eebbb6776750c00dd2db
 vendor/lib/libqdi.so|1f04a1bddd625e1f3e3b098eb26024714d3e13c6
 vendor/lib/libqdp.so|8f8d7293b935231ccb345e37d4e851107db64a23
 vendor/lib/libqmi.so|dc1a1b65510890f36114ee0e80f1154dca351994
-vendor/lib/libqmi_cci.so|e0071cf341e2cfb9477b4f86794b45325dbdf291
+vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_client_helper.so|1016c7701db56348a220e47d2b7babc83aeac641
 vendor/lib/libqmi_client_qmux.so|1a3a8b72fe88994d2a28e474e7f8e9e7410ce295
 vendor/lib/libqmi_common_so.so|0e04d09cc7f5f005c9f4225d461d19ffba7b9fbc
 vendor/lib/libqmi_csi.so|b41d3c0af5aa99756998b914143f0b0ff7684b39
-vendor/lib/libqmi_encdec.so|237f3cf42bad77e84198a717c29584422c6e5dd8
+vendor/lib/libqmi_encdec.so
 vendor/lib/libqminvapi.so
-vendor/lib/libqmiservices.so|fd3d5890e415351a50ae36cbcfb317b6b6fa81ad
+vendor/lib/libqmiservices.so
 vendor/lib64/libdiag.so|46c781d1a9363eb8f71ca6e46a74cefcd3943220
 vendor/lib64/libdsi_netctrl.so|7f79df4eb7b68119b508a08e9d725abbee7d0fcb
 vendor/lib64/libdsutils.so|0c6f6f81a43061e333cc3363532a47938b328317
-vendor/lib64/libidl.so|cfe7ee450096a8f4b919a0af31919d74e9817f27
+vendor/lib64/libidl.so
 vendor/lib64/libqcci_legacy.so|b62b4aef9c154b5a2ec8d5fd3a59aef4d9f74461
 vendor/lib64/libqcmaputils.so|b854d8e1d4302da4862dbde318f188ace76824fc
 vendor/lib64/libqdi.so|7b15d7f19badad650167acec1fd1e8ae4d8460cb
 vendor/lib64/libqdp.so|3963fc4286af6936efd6546326b1cbb86e6383b4
 vendor/lib64/libqmi.so|42fda75d3792c384c9e6e5364aa53f3fa1dfbce8
-vendor/lib64/libqmi_cci.so|9f86adf4b980efa903af247d912301cd7b24826a
+vendor/lib64/libqmi_cci.so
 vendor/lib64/libqmi_client_helper.so|603871f750ae21078ce2cae9732e565ab38a402f
 vendor/lib64/libqmi_client_qmux.so|53b2f8d8e4544004e25a09f5e9cd79a153d15a1c
 vendor/lib64/libqmi_common_so.so|c67f8e1ae1bf284465123dae0f16d9b47959283a
 vendor/lib64/libqmi_csi.so|83622d5db2a69ae1d8b7f2d32d33465c1c3990a1
-vendor/lib64/libqmi_encdec.so|3718f44de300643adb487449627ccbbd9bb916fe
+vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqminvapi.so
-vendor/lib64/libqmiservices.so|be2b28a8d5a1880e944d795aa30fc2ca9be92390
+vendor/lib64/libqmiservices.so
 
 # RIL - from munch - RKQ1.211001.001
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|d6a17202f98c3fae8e2ee29784c0478d4e347f31

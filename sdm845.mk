@@ -66,14 +66,15 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # ANT+
 PRODUCT_PACKAGES += \
+    AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@6.0-impl:32 \
-    android.hardware.audio.effect@6.0-impl:32 \
+    android.hardware.audio@6.0-impl \
+    android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.service \
-    android.hardware.soundtrigger@2.2-impl:32 \
+    android.hardware.soundtrigger@2.2-impl \
     audio.r_submix.default \
     audio.usb.default \
     libaudioroute.vendor \
@@ -103,8 +104,7 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
-    android.hardware.bluetooth.audio-impl \
-    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.audio@2.1-impl \
     audio.bluetooth.default \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
