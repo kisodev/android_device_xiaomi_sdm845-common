@@ -88,7 +88,7 @@ on boot
     write /dev/cpuset/system-background/cpus 0-7
 
     # Increase temp_warm
-    write /sys/class/power_supply/bms/temp_warm 470
+    write /sys/class/power_supply/bms/temp_warm 480
 
     # Disable console_suspend to get better logging for kernel crashes
     write /sys/module/printk/parameters/console_suspend N
