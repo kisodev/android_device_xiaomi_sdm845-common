@@ -422,8 +422,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnl \
     libpng.vendor \
-    libprocessgroup.vendor \
-    libwfdaac_vendor
+    libprocessgroup.vendor
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm845-common/sdm845-common-vendor.mk)
