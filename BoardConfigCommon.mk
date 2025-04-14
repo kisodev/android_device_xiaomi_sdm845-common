@@ -44,8 +44,9 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := \
     vendor/sdm845-perf_defconfig \
+    vendor/xiaomi/sdm845-common.config \
     vendor/xiaomi/beryllium.config \
-    vendor/feature/full_lto.config
+    vendor/extras/full-lto.config
 
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 
