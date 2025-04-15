@@ -9,3 +9,7 @@ allow hal_power_default vendor_sysfs_devfreq:dir search;
 allow hal_power_default vendor_sysfs_devfreq:file rw_file_perms;
 allow hal_power_default vendor_sysfs_graphics:file r_file_perms;
 allow hal_power_default vendor_sysfs_kgsl:{ file lnk_file } rw_file_perms;
+
+# cpufreq-hw
+allow hal_power_default proc:file { write open };
+allow hal_power_default sysfs:file { write open };
