@@ -37,6 +37,11 @@ on init
     chmod 0664 /dev/stune/top-app/schedtune.boost
     chmod 0664 /dev/cpu_dma_latency
 
+    # Set default schedTune value for foreground/top-app
+    write /dev/stune/foreground/schedtune.prefer_idle 1
+    write /dev/stune/top-app/schedtune.boost 10
+    write /dev/stune/top-app/schedtune.prefer_idle 1
+
     # Disable UFS powersaving
     write /sys/devices/platform/soc/${ro.boot.bootdevice}/clkgate_enable 0
     write /sys/devices/platform/soc/${ro.boot.bootdevice}/hibern8_on_idle_enable 0
@@ -65,11 +70,6 @@ on init
     write /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor "schedutil"
     write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/up_rate_limit_us 500
     write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/down_rate_limit_us 20000
-
-    # Set default schedTune value for foreground/top-app
-    write /dev/stune/foreground/schedtune.prefer_idle 1
-    write /dev/stune/top-app/schedtune.boost 10
-    write /dev/stune/top-app/schedtune.prefer_idle 1
 
     # ZRAM parameters
     write /sys/block/zram0/comp_algorithm lz4
