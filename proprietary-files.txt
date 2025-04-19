@@ -328,6 +328,7 @@ vendor/lib64/com.qualcomm.qti.imscmservice@2.2.so|4635d0624e36a2b0ec170e8c7a2268
 vendor/lib64/com.qualcomm.qti.uceservice@2.0.so|6cbf36d3bf32415054f5e60a9bb4aefc15ed6b29
 vendor/lib64/com.qualcomm.qti.uceservice@2.1.so|9c7fcd11e56b1f357c3d6dd4794c494ecec88c76
 vendor/lib64/com.qualcomm.qti.uceservice@2.2.so|d149ae00af854babc812206f0c27a5949c6db597
+vendor/lib64/com.qualcomm.qti.uceservice@2.3.so
 vendor/lib64/lib-imscmservice.so|14c601a9ccaf91826400fc4aac90b70106074c8e
 vendor/lib64/lib-imsdpl.so|5ea1bc110c12ca187738c3b57c0cc21a9b6f4a87
 vendor/lib64/lib-imsqimf.so|79d7f16db7856800c090142493a07d273ecd6bd5
@@ -353,6 +354,7 @@ vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so|d8106df7a9c889c84945a959ec49b5
 vendor/lib64/vendor.qti.ims.callcapability@1.0.so|07df07fc51950ccde380b576ef005d5d2a0c282e
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so|612cddd0bd3ea68fe9ebb2bc02208410366f6c46
 vendor/lib64/vendor.qti.ims.factory@1.0.so|98726ee70915c7ac09f1bf9001b5163ad579d159
+vendor/lib64/vendor.qti.ims.factory@1.1.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|04fdb21cb29f3281146fba5e560893ba184687ef
 vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|a9ee88a7a5aa10f1cf7836c768727120fdb519ee
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|84df6f50ab4783903aaa5cfe8071ee4a5ec459f7
@@ -449,6 +451,7 @@ vendor/lib64/libdiag.so|46c781d1a9363eb8f71ca6e46a74cefcd3943220
 vendor/lib64/libdsi_netctrl.so|7f79df4eb7b68119b508a08e9d725abbee7d0fcb
 vendor/lib64/libdsutils.so|0c6f6f81a43061e333cc3363532a47938b328317
 vendor/lib64/libidl.so
+vendor/lib64/libqcci_legacy.so
 vendor/lib64/libqcmaputils.so|b854d8e1d4302da4862dbde318f188ace76824fc
 vendor/lib64/libqdi.so|7b15d7f19badad650167acec1fd1e8ae4d8460cb
 vendor/lib64/libqdp.so|3963fc4286af6936efd6546326b1cbb86e6383b4
@@ -460,6 +463,7 @@ vendor/lib64/libqmi_common_so.so|c67f8e1ae1bf284465123dae0f16d9b47959283a
 vendor/lib64/libqmi_csi.so|83622d5db2a69ae1d8b7f2d32d33465c1c3990a1
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqminvapi.so
+vendor/lib64/libqmi_legacy.so
 vendor/lib64/libqmiservices.so
 
 # RIL - from munch - RKQ1.211001.001
