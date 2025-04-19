@@ -438,13 +438,8 @@ vendor/bin/qmipriod|fc017b33cc3e894a4637a75e446eb7ceb5c5e470
 vendor/etc/init/qmipriod.rc|94500dd5dc514fbb506ad8259a69ca57f4db72d6
 vendor/etc/sec_config|38ed44170badad7ae9a05f53223e1addf8780083
 vendor/lib/libdiag.so|e3850f07f045640b3b1ce3ca90bcf72c159d3f94
-vendor/lib/libdsutils.so|69453895162c157e9e8d282c565210d31411741f
 vendor/lib/libidl.so
-vendor/lib/libqcmaputils.so|25128a262238e86adee9eebbb6776750c00dd2db
-vendor/lib/libqmi.so|dc1a1b65510890f36114ee0e80f1154dca351994
 vendor/lib/libqmi_cci.so
-vendor/lib/libqmi_client_helper.so|1016c7701db56348a220e47d2b7babc83aeac641
-vendor/lib/libqmi_client_qmux.so|1a3a8b72fe88994d2a28e474e7f8e9e7410ce295
 vendor/lib/libqmi_common_so.so|0e04d09cc7f5f005c9f4225d461d19ffba7b9fbc
 vendor/lib/libqmi_csi.so|b41d3c0af5aa99756998b914143f0b0ff7684b39
 vendor/lib/libqmi_encdec.so
