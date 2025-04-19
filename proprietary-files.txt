@@ -59,7 +59,7 @@ vendor/lib/soundfx/libdirac.so
 vendor/lib/soundfx/libshoebox.so
 
 # Bluetooth (A2DP) - from Sony SM8250-common
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti;DISABLE_DEPS
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
@@ -70,7 +70,7 @@ vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
 vendor/lib/btaudio_offload_if.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbluetooth_audio_session_qti_2_1.so
-vendor/lib/libbt-hidlclient.so
+vendor/lib/libbt-hidlclient.so;DISABLE_DEPS
 vendor/lib/libbtnv.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
@@ -84,7 +84,7 @@ vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
 vendor/lib64/btaudio_offload_if.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
-vendor/lib64/libbt-hidlclient.so
+vendor/lib64/libbt-hidlclient.so;DISABLE_DEPS
 vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
@@ -415,8 +415,8 @@ vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
 # OMX - from munch - RKQ1.211001.001
-vendor/lib/libOmxVideoDSMode.so|0771a2c2f34dc484f9b0b3625dd0a40361dec060
-vendor/lib/libOmxVpp.so|4225151f1dd333888305bdfa787db4e0a06aa48c
+vendor/lib/libOmxVideoDSMode.so;DISABLE_DEPS|0771a2c2f34dc484f9b0b3625dd0a40361dec060
+vendor/lib/libOmxVpp.so;DISABLE_DEPS|4225151f1dd333888305bdfa787db4e0a06aa48c
 
 # Peripheral manager - from PNX - RKQ1.200906.002
 vendor/bin/pm-proxy|832cbe7995de8177a2ef5bdf3f145131dfe828d4
@@ -504,7 +504,7 @@ vendor/lib64/deviceInfoServiceModule.so|c7d4021528f3a43320d0f109a9ed5f765a6a92a2
 vendor/lib64/libconfigdb.so|9db249a0cb6f93c2a32f3c271397ead0c74a5b5b
 vendor/lib64/libhydra_common.so|830d152f34be4d9e9c32dc8991813d4223b6bd1b
 vendor/lib64/liblqe.so|dabcbf7972061dd3f9346c52f1bf1486fe10323f
-vendor/lib64/libmdmdetect.so|261ac39cdf44204f3a74e86545ddaff832cfdc61
+vendor/lib64/libmdmdetect.so;DISABLE_DEPS|261ac39cdf44204f3a74e86545ddaff832cfdc61
 vendor/lib64/libmdmimgload.so|5f9a20c24dd7f981eec4618769ef74ade0704d54
 vendor/lib64/libmodemapi.so|e7f2aeb0b7fe43ad3a6b41815a2e4a0468af0643
 vendor/lib64/libnetmgr.so|9f5d71161ebc988d0d66a7831ac483cff9ff3d70
