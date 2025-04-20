@@ -2,6 +2,8 @@ dontaudit rild tombstone_data_file:dir search;
 dontaudit rild vendor_file:file ioctl;
 allow rild vendor_data_file:dir rw_file_perms;
 allow rild vendor_data_file:file rw_file_perms;
+allow rild vendor_data_file:dir { add_name create read write };
+allow rild vendor_data_file:file { create write read setattr };
 
 set_prop(rild, vendor_deviceid_prop)
 
