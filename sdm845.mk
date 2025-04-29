@@ -301,6 +301,8 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
     libprotobuf-cpp-lite-vendorcompat
 
+$(call soong_config_set,power_libperfmgr,mode_extension_lib,//$(LOCAL_PATH):libperfmgr-ext-xiaomi)
+
 # QTI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
