@@ -235,9 +235,6 @@ on property:sys.boot_completed=1
 on property:sys.boot_completed=1 && property:init.svc.console=running
     write /sys/module/printk/parameters/console_suspend Y
 
-on property:init.svc.recovery=running
-    trigger enable-low-power
-
 service vendor.power_off_alarm /vendor/bin/power_off_alarm
     class core
     group system
