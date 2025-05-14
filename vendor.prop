@@ -198,6 +198,9 @@ ro.vendor.extension_library=libqti-perfd-client.so
 # Radio
 persist.vendor.radio.enableadvancedscan=false
 
+# Shutdown
+sys.vendor.shutdown.waittime=500
+
 # USB
 sys.usb.mtp.batchcancel=1
 vendor.usb.diag.func.name=diag
