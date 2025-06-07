@@ -436,9 +436,6 @@ on post-fs-data
     # Create dir for TUI
     mkdir /data/vendor/tui 0700 system system
 
-    # Make MTU adjusting
-    write /proc/sys/net/ipv4/tcp_mtu_probing 1
-
     # Create directories for fingerprint
     mkdir /data/vendor/fpc 0770 system system
     mkdir /data/vendor/goodix 0770 system system
