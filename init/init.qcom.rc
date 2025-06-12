@@ -242,11 +242,12 @@ on boot
 
     chown system system /sys/class/drm/card0-DSI-1/disp_param
     chmod 0644 /sys/class/drm/card0-DSI-1/disp_param
+    chmod 0664 /sys/class/power_supply/battery/dc_thermal_levels
+    chown system system /sys/class/thermal/thermal_message/sconfig
 
     chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_ui
     chmod 0644 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_ui
 
-    chown system system /sys/class/thermal/thermal_message/sconfig
     chown root system /sys/bus/i2c/devices/3-0050/pressure
 
     # Sensors log dir
