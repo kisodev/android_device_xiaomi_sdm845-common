@@ -69,7 +69,6 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # ANT+
 PRODUCT_PACKAGES += \
-    AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
 # Audio
