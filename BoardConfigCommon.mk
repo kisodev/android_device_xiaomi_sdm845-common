@@ -48,7 +48,7 @@ TARGET_KERNEL_CONFIG := \
     vendor/xiaomi/sdm845-common.config \
     vendor/extras/full-lto.config
 
-TARGET_KERNEL_SOURCE := kernel/xiaomi/dipper
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
